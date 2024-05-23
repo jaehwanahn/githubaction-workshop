@@ -24,4 +24,4 @@ jobs:
 
       - name: Set time
         id: set-time
-        run: echo "current-time=$(date)" >> $GITHUB_OUTPU
+        run: echo "current-time=$(date)" >> $GITHUB_OUTPUT
