@@ -55,7 +55,7 @@ jobs:
       environment:
         name: Production
         url: https://writeabout.net
-      if: github.event.inputs.environment == 'workflow_dispatch'
+      if: github.event_name == 'workflow_dispatch'
       steps:
         - run: |
             echo "🚀 Step 1..."
